@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home - Bit.ly Clone</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+	<link href="stylesheet/app.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container" ".col-lg-">
+		<header class="">
+			<h1>URL Shortener</h1>
+		</header>
+		<section class="form-background">
+			<div class="col-md-6 col-md-offset-3">	
+			<form action="/urls" method="POST">  <!-- action tells the form where to send the request (GET, POST, PUT DELETE) and POST tells the server what type of request is being made -->
+				<input type="form-control" name="url" placeholder="new url">
+				<button class="shorten-it" type="button" class="btn ">Shorten it!</button>
+			</form>
+			</div>
+			
+		</section>
+	</div>
+</body>
+</html>

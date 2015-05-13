@@ -1,0 +1,76 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.container {
+    /*background-color: red;*/
+    background-image: url(/images/subtle_dots/subtle_dots.png);
+    color: white;
+    height: 600px;
+
+}
+
+header {
+	height: 100px;
+	width: 570px;
+	background-color: #31708f;
+	color: white;
+	margin: auto;
+}
+
+h1 {
+/*	padding-left: 20px;*/
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	text-align: center;
+}
+
+/*.form-background {
+	background-color: pink;
+	height: 300px;
+	width: 570px;
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+}*/
+
+.col-md-offset-3  {
+	background-color: #7cd1ef;
+	border: #4fc1e9;
+	height: 250px;
+
+}
+
+form {
+
+}
+
+input {
+	width:400px;
+	height: 45px;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom: 2px solid #31708f;
+	padding-left: 15px;
+	color: #31708f;
+}
+
+button {
+	margin: auto;
+	margin-top: 30px;
+	border: 0;
+	font-size: 16px;
+}
+
+.shorten-it {
+	width: 200px;
+	height: 45px;
+	display: block;
+	background-color: #31708f;
+}
